@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lightdb.server", "lightdb.server\lightdb.server.csproj", "{3701FDAA-8E44-46FE-98F3-935746107717}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "httpserver", "httpserver\httpserver.csproj", "{E7CD07C6-6D92-4E78-85E6-8095D9990A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3701FDAA-8E44-46FE-98F3-935746107717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3701FDAA-8E44-46FE-98F3-935746107717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3701FDAA-8E44-46FE-98F3-935746107717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3701FDAA-8E44-46FE-98F3-935746107717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CD07C6-6D92-4E78-85E6-8095D9990A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CD07C6-6D92-4E78-85E6-8095D9990A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CD07C6-6D92-4E78-85E6-8095D9990A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CD07C6-6D92-4E78-85E6-8095D9990A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ED78951-1929-4BB2-9479-3CD64CC04EB0}
+	EndGlobalSection
+EndGlobal
