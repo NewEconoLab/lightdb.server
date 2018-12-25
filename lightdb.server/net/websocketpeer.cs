@@ -423,7 +423,7 @@ namespace LightDB.Server
         }
         public async Task OnSnapshot_IteratorNext(NetMessage msgRecv, byte[] id)
         {
-            var msg = NetMessage.Create("_db.iterator.current.back");
+            var msg = NetMessage.Create("_db.iterator.next.back");
             msg.Params["_id"] = id;
 
             try

@@ -33,7 +33,7 @@ namespace LightDB.Server
                         {
                             var blockidlast = BitConverter.GetBytes((UInt64)(snap.DataHeight - 1));
 
-                            var taskhash = Helper.Sha256.ComputeHash(data);
+                            byte[] taskhash = Helper.CalcHash256(data);
                             //不够用，还需要block高度
                             var lasthashFind = snap.GetValue(StorageService.tableID_BlockID2Hash, blockidlast).value;
 
